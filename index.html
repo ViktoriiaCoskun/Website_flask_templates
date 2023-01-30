@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport"content="width=device-width,initial-scale=1.0"/>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        
+    </head>
+    <body>
+        <div class="showcase">
+        <div class="overlay">
+        <div class="header">
+            <header>
+                <div class="logo">
+                    <h2>V <span>Cs</span.</h2>
+                </div>
+                <nav class = "navbar">
+                    <ul>
+                        <li><a href = "/"class="active">Home</a></li>
+                        <li><a href = "about">about</a></li>
+                        <li><a href = "#">resume</a></li>
+                        <li><a href = "#">projects</a></li>
+                        <li><a href = "contact_form">contact form</a></li>
+                        <button>Home
+                            <nav>
+                                <a href="sec_page">my contacts</a>
+                            
+                          </nav>
+                    </button>
+                </ul>
+            </nav>
+                
+            </header>
+        </div>
+        {% block body %}
+        {% endblock %}
+
+    </body>
+</html>
+
+        

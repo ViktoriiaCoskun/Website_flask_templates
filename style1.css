@@ -1,0 +1,117 @@
+@import url("https:??fonts.googleapis.com/css2?family=Poppins:wgt@400;600;700&display=swap");
+*{
+    margin: 0;
+    padding :0;
+    border : none;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+
+}
+.showcase {
+    background-color: rgba(122, 123, 149, 0.87);
+    background-size:cover;
+    height: 100vh;
+}
+.overlay {
+    background: rgba(0, 0, 0, 0.25);
+    height: 100vh;
+
+}
+header{
+    padding: 14px 15%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+
+/* Navbar*/
+
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    gap: 1rem;   
+}
+.navbar ul li a{
+    color: #fff;
+    padding: 5px 12p;
+    border-radius: 2px;
+    font-size: 20px;
+    transition: all 0.5s ease;
+    text-transform: capitalize;
+}
+ul a:hover, .active{
+    background: #8f98cf95;
+    color: #fff;
+}
+button{
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px 12px;
+    border-radius: 2px;
+    background: transparent;
+    transition: all 0.5s ease;
+    border: 2px solid  #a4ace195;
+    text-transform: capitalize;
+}
+button:hover{
+    transform: translateY(-3px);
+}
+
+
+/*contact_section*/
+.contact_section{
+    padding: 20px 15%;
+}
+.my_contact{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(203, 201, 225);
+
+}
+
+.my_contact h1 {
+    padding: 40px;
+    font-size: 3.5rem;
+    
+}
+.my_contact h2{
+    color: #fff;
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    letter-spacing: 6px;
+    
+}
+.my_contact span{
+    color:  rgb(203, 201, 225);
+    
+    font-size: 2.5rem;    
+}
+
+
+
+.my_contact h3{
+    color: #fff;
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    letter-spacing: 6px;
+    
+}
+
+
+
+
+
+

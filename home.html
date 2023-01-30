@@ -1,0 +1,23 @@
+{% extends 'index.html' %}
+
+{% block body %}
+        <section class="home-section">
+            <div class="home-profile">
+                <h1>Welcome to my Home page!</h1>
+                <img src="/static/my_photo.jpg"alt=me/>
+                <h2>Viktoriia Coskun</h2>
+                <span>Back-end Python Developer</span>
+            </div>
+        </section>
+    <section id="contact">
+        <h1 class="headings">CONTACT</h1>
+            <form action=""class="form">
+                <input type="text" name="name"class="input"placeholder="Enter your name">
+                <input type="email"name="email"class="input"
+                    placeholder="Enter your Email">
+                        <textarea name="msg" id="msg" cols="40" rows="15"placeholder="Enter your message">
+                    </textarea>
+                <input type="submit" value="SEND" id="send">
+            </form>
+        </section>
+{% endblock %}
